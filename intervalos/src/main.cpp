@@ -24,7 +24,7 @@ void verificarIntervalos(int x, int * vec){
       vec[4]++;
 }
 
-void imprimirPorcentagens(int * vec, double total){ // otimizar o calculo das porcentagens
+void imprimirPorcentagens(int * vec, double total){
     for(int i = 0; i < 5; i++){
       cout << std::setprecision(4) << (vec[i]/total) * 100 << '\n';
     }
