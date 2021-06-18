@@ -1,5 +1,5 @@
 #include "function.h"
-
+#include <cstddef>
 /*!
  * Finds and returns a pair with the first instance of the smallest element
  * and the last instance of the largest element in an array.
@@ -10,7 +10,7 @@
  * @return A pair of indexes to the first smallest and last largest values.
  */
 
-std::pair<int,int> min_max( int V[], int n )
+std::pair<int,int> min_max( int V[], size_t n )
 {
     int menor = V[0], maior = V[0],
         posMenor = -1, posMaior = -1;
