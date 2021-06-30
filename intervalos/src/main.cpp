@@ -10,7 +10,7 @@ using std::cin;
 using std::endl;
 #include <iomanip>
 using std::setprecision;
-
+/*blz!*/
 void verificarIntervalos(int x, int * vec){
     if(x >= 0 && x < 25)
       vec[0]++;

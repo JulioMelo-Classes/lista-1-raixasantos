@@ -8,6 +8,9 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+/*
+ok
+*/
 int main( void )
 {
     int m = 0, n = 0, soma, aux;
